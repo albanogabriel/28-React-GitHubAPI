@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.bar {
+    padding: 30px;
+    align-items: center;
+}
+
+.bar h3{
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.bar input {
+    padding: 4px;
+    border: none;
+    border: 1px solid #111;
+    border-radius: 2px;
+    margin-right: 2px;
+}
+
+.bar button {
+    padding: 4px;
+    color: white;
+    background-color: #111;
+    border: none;
+    border-radius: 2px;
+    border: 1px solid #111;
+    cursor: pointer;
+}
+
+:root {
+    --corPrincipal: #111;
+    --corSecundaria: #4c4c4c;
+}

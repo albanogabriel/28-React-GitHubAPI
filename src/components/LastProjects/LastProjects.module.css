@@ -1,0 +1,41 @@
+.title {
+    text-align: center;
+    margin: 30px;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+
+.listItem{
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0,0,0, 0.1);
+    margin-bottom: 2px;
+}
+
+.itemName {
+    margin-bottom: 16px;
+}
+
+.itemName b, .itemLanguage b{
+    margin-right: 2px;
+}
+
+.itemLink {
+    display: block;
+    background-color: var(--corPrincipal);
+    color: white;
+    text-align: center;
+    margin-top: 24px;
+    border-radius: 4px;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.itemLink:hover {
+    opacity: 0.9;
+}
